@@ -2,7 +2,7 @@ window.SpeechRecognition = window.SpeechRecognition ||
 webkitSpeechRecognition;
 
 const recognition = new SpeechRecognition();
-recognition.lang = 'pt-Br'
+recognition.lang = 'en-US'
 
 const number = document.getElementById('guess')
 const btnStart = document.querySelector('#btn-start')
